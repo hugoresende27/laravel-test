@@ -7,3 +7,6 @@
 - sudo ./vendor/bin/sail artisan (to run artisan commands)
 - sudo docker exec -it laravel-test-laravel.test-1 bash (to enter container bash)
 
+- sudo chown -R hugo:hugo .
+- chmod -R 775 .phpunit.cache
+
